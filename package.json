@@ -1,0 +1,29 @@
+{
+    "name": "weither-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack serve",
+        "build": "webpack --mode development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://sanetrox94@bitbucket.org/sanetrox94/weither-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://bitbucket.org/sanetrox94/weither-app#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "css-loader": "^5.0.1",
+        "html-webpack-plugin": "^4.5.0",
+        "style-loader": "^2.0.0",
+        "styles-loader": "^2.0.0",
+        "webpack": "^5.9.0",
+        "webpack-cli": "^4.2.0",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-serve": "^3.2.0"
+    }
+}
